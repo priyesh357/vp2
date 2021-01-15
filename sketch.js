@@ -63,7 +63,7 @@ function readStock(data){
   foodObj.updatefoodStock(foodS)
 }
 function feedDog(){
-  dog.addImage(happyDog);
+  dog.addImage(dog1);
 
   foodObj.updatefoodStock(foodObj.getFoodStock()-1);
   database.ref('/').update({
